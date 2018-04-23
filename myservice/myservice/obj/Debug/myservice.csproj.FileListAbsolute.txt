@@ -1,0 +1,12 @@
+c:\users\hussaini computers\documents\visual studio 2015\Projects\myservice\myservice\obj\Debug\myservice.csprojResolveAssemblyReference.cache
+c:\users\hussaini computers\documents\visual studio 2015\Projects\myservice\myservice\bin\myservice.dll.config
+c:\users\hussaini computers\documents\visual studio 2015\Projects\myservice\myservice\bin\myservice.dll
+c:\users\hussaini computers\documents\visual studio 2015\Projects\myservice\myservice\bin\myservice.pdb
+c:\users\hussaini computers\documents\visual studio 2015\Projects\myservice\myservice\obj\Debug\myservice.dll
+c:\users\hussaini computers\documents\visual studio 2015\Projects\myservice\myservice\obj\Debug\myservice.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\myservice\myservice\bin\myservice.dll.config
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\myservice\myservice\bin\myservice.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\myservice\myservice\bin\myservice.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\myservice\myservice\obj\Debug\myservice.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\myservice\myservice\obj\Debug\myservice.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\myservice\myservice\obj\Debug\myservice.pdb

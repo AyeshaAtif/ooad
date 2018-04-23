@@ -1,0 +1,30 @@
+c:\users\hussaini computers\documents\visual studio 2015\Projects\WindowsFormsApplication13\WindowsFormsApplication13\bin\Debug\WindowsFormsApplication13.exe.config
+c:\users\hussaini computers\documents\visual studio 2015\Projects\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.csprojResolveAssemblyReference.cache
+c:\users\hussaini computers\documents\visual studio 2015\Projects\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.Form1.resources
+c:\users\hussaini computers\documents\visual studio 2015\Projects\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.Form2.resources
+c:\users\hussaini computers\documents\visual studio 2015\Projects\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.Properties.Resources.resources
+c:\users\hussaini computers\documents\visual studio 2015\Projects\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.csproj.GenerateResource.Cache
+c:\users\hussaini computers\documents\visual studio 2015\Projects\WindowsFormsApplication13\WindowsFormsApplication13\bin\Debug\WindowsFormsApplication13.exe
+c:\users\hussaini computers\documents\visual studio 2015\Projects\WindowsFormsApplication13\WindowsFormsApplication13\bin\Debug\WindowsFormsApplication13.pdb
+c:\users\hussaini computers\documents\visual studio 2015\Projects\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.exe
+c:\users\hussaini computers\documents\visual studio 2015\Projects\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\WindowsFormsApplication13\WindowsFormsApplication13\bin\Debug\WindowsFormsApplication13.exe.config
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.exe
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\WindowsFormsApplication13\WindowsFormsApplication13\bin\Debug\WindowsFormsApplication13.exe
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\WindowsFormsApplication13\WindowsFormsApplication13\bin\Debug\WindowsFormsApplication13.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.Form1.resources
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.Form2.resources
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.Properties.Resources.resources
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.csproj.GenerateResource.Cache
+C:\Users\Bint E Adam\Desktop\WindowsFormsApplication13\WindowsFormsApplication13\bin\Debug\WindowsFormsApplication13.exe.config
+C:\Users\Bint E Adam\Desktop\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.exe
+C:\Users\Bint E Adam\Desktop\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.pdb
+C:\Users\Bint E Adam\Desktop\WindowsFormsApplication13\WindowsFormsApplication13\bin\Debug\WindowsFormsApplication13.exe
+C:\Users\Bint E Adam\Desktop\WindowsFormsApplication13\WindowsFormsApplication13\bin\Debug\WindowsFormsApplication13.pdb
+C:\Users\Bint E Adam\Desktop\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.csprojResolveAssemblyReference.cache
+C:\Users\Bint E Adam\Desktop\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.Form1.resources
+C:\Users\Bint E Adam\Desktop\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.Form2.resources
+C:\Users\Bint E Adam\Desktop\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.Properties.Resources.resources
+C:\Users\Bint E Adam\Desktop\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.csproj.GenerateResource.Cache
