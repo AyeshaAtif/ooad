@@ -28,3 +28,21 @@ C:\Users\Bint E Adam\Desktop\WindowsFormsApplication13\WindowsFormsApplication13
 C:\Users\Bint E Adam\Desktop\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.Form2.resources
 C:\Users\Bint E Adam\Desktop\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.Properties.Resources.resources
 C:\Users\Bint E Adam\Desktop\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.csproj.GenerateResource.Cache
+C:\Users\ok1\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\bin\Debug\WindowsFormsApplication13.exe.config
+C:\Users\ok1\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.exe
+C:\Users\ok1\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.pdb
+C:\Users\ok1\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\bin\Debug\WindowsFormsApplication13.exe
+C:\Users\ok1\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\bin\Debug\WindowsFormsApplication13.pdb
+C:\Users\ok1\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\bin\Debug\mscorlib.dll
+C:\Users\ok1\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\bin\Debug\normidna.nlp
+C:\Users\ok1\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\bin\Debug\normnfc.nlp
+C:\Users\ok1\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\bin\Debug\normnfd.nlp
+C:\Users\ok1\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\bin\Debug\normnfkc.nlp
+C:\Users\ok1\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\bin\Debug\normnfkd.nlp
+C:\Users\ok1\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.csprojResolveAssemblyReference.cache
+C:\Users\ok1\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.catagory_selection.resources
+C:\Users\ok1\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.Form1.resources
+C:\Users\ok1\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.Form2.resources
+C:\Users\ok1\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.Properties.Resources.resources
+C:\Users\ok1\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.test_type_selection.resources
+C:\Users\ok1\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.csproj.GenerateResource.Cache

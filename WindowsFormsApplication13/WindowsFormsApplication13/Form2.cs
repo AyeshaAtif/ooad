@@ -26,11 +26,16 @@ namespace WindowsFormsApplication13
             if (isvaliduser == true) 
             {
                 MessageBox.Show("validuser");
+                catagory_selection c = new catagory_selection();
+                this.Hide();
+                c.Show();
             }
             else
             {
                 MessageBox.Show("invaliduser");
             }
+
+
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
