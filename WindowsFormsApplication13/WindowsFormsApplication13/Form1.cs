@@ -43,5 +43,12 @@ namespace WindowsFormsApplication13
             this.Hide();
             frm.Show();
         }
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            main a = new main();
+            a.Show();
+            this.Hide();
+        }
     }
 }
