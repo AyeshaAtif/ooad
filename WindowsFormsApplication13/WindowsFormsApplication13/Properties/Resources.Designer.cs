@@ -8,10 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WindowsFormsApplication13.Properties
-{
-
-
+namespace WindowsFormsApplication13.Properties {
+    using System;
+    
+    
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -22,49 +22,80 @@ namespace WindowsFormsApplication13.Properties
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources
-    {
-
+    internal class Resources {
+        
         private static global::System.Resources.ResourceManager resourceMan;
-
+        
         private static global::System.Globalization.CultureInfo resourceCulture;
-
+        
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources()
-        {
+        internal Resources() {
         }
-
+        
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager
-        {
-            get
-            {
-                if ((resourceMan == null))
-                {
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WindowsFormsApplication13.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
             }
         }
-
+        
         /// <summary>
         ///   Overrides the current thread's CurrentUICulture property for all
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture
-        {
-            get
-            {
+        internal static global::System.Globalization.CultureInfo Culture {
+            get {
                 return resourceCulture;
             }
-            set
-            {
+            set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Which of the following countries is at constitutional monarchy?
+        ///Poland
+        ///Belgium
+        ///Finlad 
+        ///Holland
+        ///Belgium
+        ///Which is the largest fraction?
+        ///5/8
+        ///6/11
+        ///8/14
+        ///10/18
+        ///5/8
+        ///language: meaning ::philology:
+        ///Philosiphy
+        ///Ethics
+        ///Semantics
+        ///Grammer
+        ///Semantics
+        ///5, 10, 19, 32,4, 70...?
+        ///121
+        ///89
+        ///95
+        ///135
+        ///95
+        ///Find two words that are closest in meaning:
+        ///Raise and elevate
+        ///Floor and basement
+        ///Stairs and top
+        ///Raise and top
+        ///Raise and elevate
+        ///Mary who is 16 years old, is four times as old as his brother.how old will mar [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string testttt {
+            get {
+                return ResourceManager.GetString("testttt", resourceCulture);
             }
         }
     }

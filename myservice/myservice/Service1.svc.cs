@@ -55,5 +55,18 @@ namespace myservice
             u.Email = email;
             userdl.users.Add(u);
         }
+
+        string IService1.GetData(int value)
+        {
+            throw new NotImplementedException();
+        }
+
+        CompositeType IService1.GetDataUsingDataContract(CompositeType composite)
+        {
+            throw new NotImplementedException();
+        }
+
+       
+       
     }
 }

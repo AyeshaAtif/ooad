@@ -117,8 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="testttt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\testttt.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  <data name="instructiontxt.Text" xml:space="preserve">
+    <value>WELCOME FOR IQ TEST 
+INSTRUCTION
+1:Test contains only 20 questions and you have only 5 minutes to complete the test
+2:you have to answer each question
+3:Each question has 4 options, you have to select one suitable option
+4:Each question has one point
+5:Submit each question, Otherwise you willn't get any point
+6:you can move to next Question by clicking on the next button
+7: you can go back also by clicking on the back button
+8:you can also quit the test by clicking on the Quit button</value>
   </data>
 </root>

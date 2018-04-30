@@ -69,3 +69,20 @@ C:\Users\Tehreem Shazadi\Desktop\pagal\WindowsFormsApplication13\WindowsFormsApp
 C:\Users\Tehreem Shazadi\Desktop\pagal\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.Properties.Resources.resources
 C:\Users\Tehreem Shazadi\Desktop\pagal\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.test_type_selection.resources
 C:\Users\Tehreem Shazadi\Desktop\pagal\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.csproj.GenerateResource.Cache
+C:\Users\Bint E Adam\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\bin\Debug\WindowsFormsApplication13.exe.config
+C:\Users\Bint E Adam\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.exe
+C:\Users\Bint E Adam\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.pdb
+C:\Users\Bint E Adam\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\bin\Debug\WindowsFormsApplication13.exe
+C:\Users\Bint E Adam\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\bin\Debug\WindowsFormsApplication13.pdb
+C:\Users\Bint E Adam\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.csprojResolveAssemblyReference.cache
+C:\Users\Bint E Adam\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.catagory_selection.resources
+C:\Users\Bint E Adam\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.eq.resources
+C:\Users\Bint E Adam\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.Form1.resources
+C:\Users\Bint E Adam\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.Form2.resources
+C:\Users\Bint E Adam\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.IQ.resources
+C:\Users\Bint E Adam\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.main.resources
+C:\Users\Bint E Adam\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.Properties.Resources.resources
+C:\Users\Bint E Adam\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.test_type_selection.resources
+C:\Users\Bint E Adam\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.csproj.GenerateResource.Cache
+C:\Users\Bint E Adam\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.testQuestion.resources
+C:\Users\Bint E Adam\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.InstructionForm.resources

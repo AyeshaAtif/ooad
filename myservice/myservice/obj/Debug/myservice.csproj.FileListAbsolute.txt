@@ -10,3 +10,9 @@ C:\Users\Admin\Documents\Visual Studio 2015\Projects\myservice\myservice\bin\mys
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\myservice\myservice\obj\Debug\myservice.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\myservice\myservice\obj\Debug\myservice.dll
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\myservice\myservice\obj\Debug\myservice.pdb
+C:\Users\Bint E Adam\Desktop\OOAD\ooad\myservice\myservice\bin\myservice.dll.config
+C:\Users\Bint E Adam\Desktop\OOAD\ooad\myservice\myservice\bin\myservice.dll
+C:\Users\Bint E Adam\Desktop\OOAD\ooad\myservice\myservice\bin\myservice.pdb
+C:\Users\Bint E Adam\Desktop\OOAD\ooad\myservice\myservice\obj\Debug\myservice.csprojResolveAssemblyReference.cache
+C:\Users\Bint E Adam\Desktop\OOAD\ooad\myservice\myservice\obj\Debug\myservice.dll
+C:\Users\Bint E Adam\Desktop\OOAD\ooad\myservice\myservice\obj\Debug\myservice.pdb

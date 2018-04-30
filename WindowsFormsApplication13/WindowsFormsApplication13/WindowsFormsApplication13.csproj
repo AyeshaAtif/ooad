@@ -48,10 +48,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="catagory selection.cs">
+    <Compile Include="InstructionForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="catagory selection.Designer.cs">
+    <Compile Include="InstructionForm.Designer.cs">
+      <DependentUpon>InstructionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\catagory selection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\catagory selection.Designer.cs">
       <DependentUpon>catagory selection.cs</DependentUpon>
     </Compile>
     <Compile Include="eq.cs">
@@ -92,12 +98,21 @@
     <Compile Include="test type selection.Designer.cs">
       <DependentUpon>test type selection.cs</DependentUpon>
     </Compile>
+    <Compile Include="testQuestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="testQuestion.Designer.cs">
+      <DependentUpon>testQuestion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Web References\server\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.map</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="catagory selection.resx">
+    <EmbeddedResource Include="InstructionForm.resx">
+      <DependentUpon>InstructionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\catagory selection.resx">
       <DependentUpon>catagory selection.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="eq.resx">
@@ -123,9 +138,13 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="test type selection.resx">
       <DependentUpon>test type selection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="testQuestion.resx">
+      <DependentUpon>testQuestion.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -178,6 +197,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Web References\server\Service1.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\testttt.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

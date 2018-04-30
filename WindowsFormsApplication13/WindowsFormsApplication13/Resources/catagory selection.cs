@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication13
 {
-    public partial class test_type_selection : Form
+    public partial class catagory_selection : Form
     {
-        public test_type_selection()
+        public catagory_selection()
         {
             InitializeComponent();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-            catagory_selection frm = new catagory_selection();
-            this.Hide();
-            frm.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -33,20 +25,22 @@ namespace WindowsFormsApplication13
             }
             else if (!checkBox1.Checked && !checkBox2.Checked)
             {
-                MessageBox.Show("Make one choice");
+                MessageBox.Show("Make atleast one choice");
             }
-            if(checkBox1.Checked)
+            else
             {
-                InstructionForm ins = new InstructionForm();
+
+                test_type_selection f = new test_type_selection();
                 this.Hide();
-                ins.Show();
+                f.Show();
             }
-           
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-
+            Form2 f = new Form2();
+            this.Hide();
+            f.Show();
         }
     }
 }
