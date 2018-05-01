@@ -115,3 +115,6 @@ C:\Users\Tehreem Shazadi\Desktop\ooad\WindowsFormsApplication13\WindowsFormsAppl
 C:\Users\Tehreem Shazadi\Desktop\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.adminreg.resources
 C:\Users\Tehreem Shazadi\Desktop\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.start.resources
 C:\Users\Tehreem Shazadi\Desktop\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.admincontrols.resources
+C:\Users\Tehreem Shazadi\Desktop\ooad\New folder\WindowsFormsApplication13\WindowsFormsApplication13\bin\Debug\WindowsFormsApplication13.exe.config
+C:\Users\Tehreem Shazadi\Desktop\ooad\New folder\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.exe
+C:\Users\Tehreem Shazadi\Desktop\ooad\New folder\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.pdb
