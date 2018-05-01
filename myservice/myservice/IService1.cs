@@ -17,6 +17,12 @@ namespace myservice
 
         [OperationContract]
         bool isvaliduser(string username, string email);
+
+        [OperationContract]
+        void adminreg(string name, string password, string email);
+
+        [OperationContract]
+        bool isvalidadmin(string name, string email, string password);
      
         [OperationContract]
         string GetData(int value);

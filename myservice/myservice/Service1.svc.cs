@@ -56,17 +56,30 @@ namespace myservice
             userdl.users.Add(u);
         }
 
-        string IService1.GetData(int value)
+        public void adminreg(string name, string password, string email)
         {
-            throw new NotImplementedException();
+            admin a = new admin();
+            a.Name = name;
+            a.Password = password;
+            a.Email = email;
+            userdl.admins.Add(a);
         }
 
-        CompositeType IService1.GetDataUsingDataContract(CompositeType composite)
-        {
-            throw new NotImplementedException();
-        }
 
-       
-       
+
+        public bool isvalidadmin(string name, string email, string password)
+        {
+            bool isFound = false ;
+            foreach (admin a in userdl.admins)
+            {
+                if (a.Name == name && a.Email == email && a.Password == password)
+                {
+                    isFound = true;
+                }
+              
+            }
+            return isFound;
+        }
     }
 }
+

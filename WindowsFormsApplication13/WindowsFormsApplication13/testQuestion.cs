@@ -50,7 +50,7 @@ namespace WindowsFormsApplication13
             label1.Text = questionNo.ToString();
             timer1.Enabled = true;
             timer1.Start();
-            lines = File.ReadAllLines(@"C: \Users\Bint E Adam\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\Resources\testttt.txt");
+            lines = File.ReadAllLines(@"C:\Users\Tehreem Shazadi\Desktop\ooad\WindowsFormsApplication13\WindowsFormsApplication13\Resources\testttt.txt");
             lblquestion.Text = lines[index];
             radioButton1.Text = lines[++index];
             radioButton2.Text = lines[++index];
@@ -65,7 +65,8 @@ namespace WindowsFormsApplication13
         {
             questionNo++;
             label1.Text = questionNo.ToString();
-            if (File.ReadAllLines(@"C:\Users\Bint E Adam\Desktop\OOAD\ooad\WindowsFormsApplication13\WindowsFormsApplication13\Resources\testttt.txt") == null)
+            lines = File.ReadAllLines(@"C:\Users\Tehreem Shazadi\Desktop\ooad\WindowsFormsApplication13\WindowsFormsApplication13\Resources\testttt.txt");
+            if (File.ReadAllLines(@"C:\Users\Tehreem Shazadi\Desktop\ooad\WindowsFormsApplication13\WindowsFormsApplication13\Resources\testttt.txt") == null)
             {
                 MessageBox.Show("test has been ended");
             }

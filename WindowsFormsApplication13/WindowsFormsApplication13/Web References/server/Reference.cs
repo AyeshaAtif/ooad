@@ -33,6 +33,10 @@ namespace WindowsFormsApplication13.server {
         
         private System.Threading.SendOrPostCallback isvaliduserOperationCompleted;
         
+        private System.Threading.SendOrPostCallback adminregOperationCompleted;
+        
+        private System.Threading.SendOrPostCallback isvalidadminOperationCompleted;
+        
         private System.Threading.SendOrPostCallback GetDataOperationCompleted;
         
         private System.Threading.SendOrPostCallback GetDataUsingDataContractOperationCompleted;
@@ -82,6 +86,12 @@ namespace WindowsFormsApplication13.server {
         public event isvaliduserCompletedEventHandler isvaliduserCompleted;
         
         /// <remarks/>
+        public event adminregCompletedEventHandler adminregCompleted;
+        
+        /// <remarks/>
+        public event isvalidadminCompletedEventHandler isvalidadminCompleted;
+        
+        /// <remarks/>
         public event GetDataCompletedEventHandler GetDataCompleted;
         
         /// <remarks/>
@@ -89,25 +99,25 @@ namespace WindowsFormsApplication13.server {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://tempuri.org/IService1/registration", RequestNamespace="http://tempuri.org/", ResponseNamespace="http://tempuri.org/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
-        public void registration([System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string username, [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string password) {
+        public void registration([System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string username, [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string email) {
             this.Invoke("registration", new object[] {
                         username,
-                        password});
+                        email});
         }
         
         /// <remarks/>
-        public void registrationAsync(string username, string password) {
-            this.registrationAsync(username, password, null);
+        public void registrationAsync(string username, string email) {
+            this.registrationAsync(username, email, null);
         }
         
         /// <remarks/>
-        public void registrationAsync(string username, string password, object userState) {
+        public void registrationAsync(string username, string email, object userState) {
             if ((this.registrationOperationCompleted == null)) {
                 this.registrationOperationCompleted = new System.Threading.SendOrPostCallback(this.OnregistrationOperationCompleted);
             }
             this.InvokeAsync("registration", new object[] {
                         username,
-                        password}, this.registrationOperationCompleted, userState);
+                        email}, this.registrationOperationCompleted, userState);
         }
         
         private void OnregistrationOperationCompleted(object arg) {
@@ -119,33 +129,99 @@ namespace WindowsFormsApplication13.server {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://tempuri.org/IService1/isvaliduser", RequestNamespace="http://tempuri.org/", ResponseNamespace="http://tempuri.org/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
-        public void isvaliduser([System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string username, [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string password, out bool isvaliduserResult, [System.Xml.Serialization.XmlIgnoreAttribute()] out bool isvaliduserResultSpecified) {
+        public void isvaliduser([System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string username, [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string email, out bool isvaliduserResult, [System.Xml.Serialization.XmlIgnoreAttribute()] out bool isvaliduserResultSpecified) {
             object[] results = this.Invoke("isvaliduser", new object[] {
                         username,
-                        password});
+                        email});
             isvaliduserResult = ((bool)(results[0]));
             isvaliduserResultSpecified = ((bool)(results[1]));
         }
         
         /// <remarks/>
-        public void isvaliduserAsync(string username, string password) {
-            this.isvaliduserAsync(username, password, null);
+        public void isvaliduserAsync(string username, string email) {
+            this.isvaliduserAsync(username, email, null);
         }
         
         /// <remarks/>
-        public void isvaliduserAsync(string username, string password, object userState) {
+        public void isvaliduserAsync(string username, string email, object userState) {
             if ((this.isvaliduserOperationCompleted == null)) {
                 this.isvaliduserOperationCompleted = new System.Threading.SendOrPostCallback(this.OnisvaliduserOperationCompleted);
             }
             this.InvokeAsync("isvaliduser", new object[] {
                         username,
-                        password}, this.isvaliduserOperationCompleted, userState);
+                        email}, this.isvaliduserOperationCompleted, userState);
         }
         
         private void OnisvaliduserOperationCompleted(object arg) {
             if ((this.isvaliduserCompleted != null)) {
                 System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
                 this.isvaliduserCompleted(this, new isvaliduserCompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
+            }
+        }
+        
+        /// <remarks/>
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://tempuri.org/IService1/adminreg", RequestNamespace="http://tempuri.org/", ResponseNamespace="http://tempuri.org/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        public void adminreg([System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string name, [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string password, [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string email) {
+            this.Invoke("adminreg", new object[] {
+                        name,
+                        password,
+                        email});
+        }
+        
+        /// <remarks/>
+        public void adminregAsync(string name, string password, string email) {
+            this.adminregAsync(name, password, email, null);
+        }
+        
+        /// <remarks/>
+        public void adminregAsync(string name, string password, string email, object userState) {
+            if ((this.adminregOperationCompleted == null)) {
+                this.adminregOperationCompleted = new System.Threading.SendOrPostCallback(this.OnadminregOperationCompleted);
+            }
+            this.InvokeAsync("adminreg", new object[] {
+                        name,
+                        password,
+                        email}, this.adminregOperationCompleted, userState);
+        }
+        
+        private void OnadminregOperationCompleted(object arg) {
+            if ((this.adminregCompleted != null)) {
+                System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
+                this.adminregCompleted(this, new System.ComponentModel.AsyncCompletedEventArgs(invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
+            }
+        }
+        
+        /// <remarks/>
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://tempuri.org/IService1/isvalidadmin", RequestNamespace="http://tempuri.org/", ResponseNamespace="http://tempuri.org/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        public void isvalidadmin([System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string name, [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string email, [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string password, out bool isvalidadminResult, [System.Xml.Serialization.XmlIgnoreAttribute()] out bool isvalidadminResultSpecified) {
+            object[] results = this.Invoke("isvalidadmin", new object[] {
+                        name,
+                        email,
+                        password});
+            isvalidadminResult = ((bool)(results[0]));
+            isvalidadminResultSpecified = ((bool)(results[1]));
+        }
+        
+        /// <remarks/>
+        public void isvalidadminAsync(string name, string email, string password) {
+            this.isvalidadminAsync(name, email, password, null);
+        }
+        
+        /// <remarks/>
+        public void isvalidadminAsync(string name, string email, string password, object userState) {
+            if ((this.isvalidadminOperationCompleted == null)) {
+                this.isvalidadminOperationCompleted = new System.Threading.SendOrPostCallback(this.OnisvalidadminOperationCompleted);
+            }
+            this.InvokeAsync("isvalidadmin", new object[] {
+                        name,
+                        email,
+                        password}, this.isvalidadminOperationCompleted, userState);
+        }
+        
+        private void OnisvalidadminOperationCompleted(object arg) {
+            if ((this.isvalidadminCompleted != null)) {
+                System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
+                this.isvalidadminCompleted(this, new isvalidadminCompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
             }
         }
         
@@ -308,6 +384,44 @@ namespace WindowsFormsApplication13.server {
         
         /// <remarks/>
         public bool isvaliduserResultSpecified {
+            get {
+                this.RaiseExceptionIfNecessary();
+                return ((bool)(this.results[1]));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.7.2558.0")]
+    public delegate void adminregCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.7.2558.0")]
+    public delegate void isvalidadminCompletedEventHandler(object sender, isvalidadminCompletedEventArgs e);
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.7.2558.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    public partial class isvalidadminCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+        
+        private object[] results;
+        
+        internal isvalidadminCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+                base(exception, cancelled, userState) {
+            this.results = results;
+        }
+        
+        /// <remarks/>
+        public bool isvalidadminResult {
+            get {
+                this.RaiseExceptionIfNecessary();
+                return ((bool)(this.results[0]));
+            }
+        }
+        
+        /// <remarks/>
+        public bool isvalidadminResultSpecified {
             get {
                 this.RaiseExceptionIfNecessary();
                 return ((bool)(this.results[1]));

@@ -19,6 +19,18 @@
   <wsdl:message name="IService1_isvaliduser_OutputMessage">
     <wsdl:part name="parameters" element="tns:isvaliduserResponse" />
   </wsdl:message>
+  <wsdl:message name="IService1_adminreg_InputMessage">
+    <wsdl:part name="parameters" element="tns:adminreg" />
+  </wsdl:message>
+  <wsdl:message name="IService1_adminreg_OutputMessage">
+    <wsdl:part name="parameters" element="tns:adminregResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_isvalidadmin_InputMessage">
+    <wsdl:part name="parameters" element="tns:isvalidadmin" />
+  </wsdl:message>
+  <wsdl:message name="IService1_isvalidadmin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:isvalidadminResponse" />
+  </wsdl:message>
   <wsdl:message name="IService1_GetData_InputMessage">
     <wsdl:part name="parameters" element="tns:GetData" />
   </wsdl:message>
@@ -39,6 +51,14 @@
     <wsdl:operation name="isvaliduser">
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/isvaliduser" message="tns:IService1_isvaliduser_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IService1/isvaliduserResponse" message="tns:IService1_isvaliduser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="adminreg">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/adminreg" message="tns:IService1_adminreg_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/adminregResponse" message="tns:IService1_adminreg_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="isvalidadmin">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/isvalidadmin" message="tns:IService1_isvalidadmin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/isvalidadminResponse" message="tns:IService1_isvalidadmin_OutputMessage" />
     </wsdl:operation>
     <wsdl:operation name="GetData">
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetData" message="tns:IService1_GetData_InputMessage" />
@@ -62,6 +82,24 @@
     </wsdl:operation>
     <wsdl:operation name="isvaliduser">
       <soap:operation soapAction="http://tempuri.org/IService1/isvaliduser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="adminreg">
+      <soap:operation soapAction="http://tempuri.org/IService1/adminreg" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="isvalidadmin">
+      <soap:operation soapAction="http://tempuri.org/IService1/isvalidadmin" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

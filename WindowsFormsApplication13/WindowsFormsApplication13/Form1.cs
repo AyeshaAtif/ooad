@@ -50,5 +50,12 @@ namespace WindowsFormsApplication13
             a.Show();
             this.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            start s = new start();
+            s.Show();
+            this.Hide();
+        }
     }
 }
