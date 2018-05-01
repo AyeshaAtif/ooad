@@ -33,14 +33,14 @@ namespace WindowsFormsApplication13
             myserver.isvalidadmin(textBox1.Text, textBox2.Text, textBox3.Text, out isvalid, out isvalidpss);
             if (!isvalid)
             {
-                MessageBox.Show("valid");
+                MessageBox.Show("valid admin");
                 admincontrols c = new admincontrols();
                 this.Hide();
                 c.Show();
             }
             else if(!isvalid)
             {
-                MessageBox.Show("invalid");
+                MessageBox.Show("invalid admin");
             }
         }
     }

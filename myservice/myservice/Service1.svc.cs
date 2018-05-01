@@ -63,6 +63,7 @@ namespace myservice
             a.Password = password;
             a.Email = email;
             userdl.admins.Add(a);
+            //function for admin registration
         }
 
 
