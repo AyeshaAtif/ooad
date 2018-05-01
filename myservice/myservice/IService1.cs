@@ -14,7 +14,7 @@ namespace myservice
     {
         [OperationContract]
         void registration(string username, string email);
-
+        
         [OperationContract]
         bool isvaliduser(string username, string email);
 

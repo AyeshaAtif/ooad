@@ -69,15 +69,15 @@ namespace myservice
 
         public bool isvalidadmin(string name, string email, string password)
         {
-            bool isFound = false ;
+            bool isFound = false;
             foreach (admin a in userdl.admins)
             {
                 if (a.Name == name && a.Email == email && a.Password == password)
                 {
                     isFound = true;
                 }
-              
-            }
+
+            } 
             return isFound;
         }
     }

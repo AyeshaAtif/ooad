@@ -31,16 +31,16 @@ namespace WindowsFormsApplication13
             //bool isvalidemail;
             server.Service1 myserver = new server.Service1();
             myserver.isvalidadmin(textBox1.Text, textBox2.Text, textBox3.Text, out isvalid, out isvalidpss);
-            if (isvalid)
+            if (!isvalid)
             {
-                MessageBox.Show("validuser");
+                MessageBox.Show("valid");
                 admincontrols c = new admincontrols();
                 this.Hide();
                 c.Show();
             }
             else if(!isvalid)
             {
-                MessageBox.Show("invaliduser");
+                MessageBox.Show("invalid");
             }
         }
     }
