@@ -27,12 +27,19 @@ namespace WindowsFormsApplication13
             {
                 MessageBox.Show("Make atleast one choice");
             }
-            else
+            else if (checkBox1.Checked)
             {
 
                 test_type_selection f = new test_type_selection();
                 this.Hide();
                 f.Show();
+            }
+            else if (checkBox2.Checked)
+            {
+                EQtesttype t = new EQtesttype();
+                this.Hide();
+                t.Show();
+
             }
         }
 
@@ -41,6 +48,16 @@ namespace WindowsFormsApplication13
             Form2 f = new Form2();
             this.Hide();
             f.Show();
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void catagory_selection_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

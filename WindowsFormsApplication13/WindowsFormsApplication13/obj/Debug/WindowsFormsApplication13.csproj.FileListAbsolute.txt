@@ -118,3 +118,26 @@ C:\Users\Tehreem Shazadi\Desktop\ooad\WindowsFormsApplication13\WindowsFormsAppl
 C:\Users\Tehreem Shazadi\Desktop\ooad\New folder\WindowsFormsApplication13\WindowsFormsApplication13\bin\Debug\WindowsFormsApplication13.exe.config
 C:\Users\Tehreem Shazadi\Desktop\ooad\New folder\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.exe
 C:\Users\Tehreem Shazadi\Desktop\ooad\New folder\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.pdb
+C:\Users\ok1\Desktop\New folder\ooad\WindowsFormsApplication13\WindowsFormsApplication13\bin\Debug\WindowsFormsApplication13.exe.config
+C:\Users\ok1\Desktop\New folder\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.exe
+C:\Users\ok1\Desktop\New folder\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.pdb
+C:\Users\ok1\Desktop\New folder\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.csprojResolveAssemblyReference.cache
+C:\Users\ok1\Desktop\New folder\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.admincontrols.resources
+C:\Users\ok1\Desktop\New folder\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.adminlogin.resources
+C:\Users\ok1\Desktop\New folder\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.adminreg.resources
+C:\Users\ok1\Desktop\New folder\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.EQverbalQuestions.resources
+C:\Users\ok1\Desktop\New folder\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.InstructionForm.resources
+C:\Users\ok1\Desktop\New folder\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.catagory_selection.resources
+C:\Users\ok1\Desktop\New folder\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.eq.resources
+C:\Users\ok1\Desktop\New folder\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.Form1.resources
+C:\Users\ok1\Desktop\New folder\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.Form2.resources
+C:\Users\ok1\Desktop\New folder\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.IQ.resources
+C:\Users\ok1\Desktop\New folder\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.main.resources
+C:\Users\ok1\Desktop\New folder\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.Properties.Resources.resources
+C:\Users\ok1\Desktop\New folder\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.start.resources
+C:\Users\ok1\Desktop\New folder\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.test_type_selection.resources
+C:\Users\ok1\Desktop\New folder\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.testQuestion.resources
+C:\Users\ok1\Desktop\New folder\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.csproj.GenerateResource.Cache
+C:\Users\ok1\Desktop\New folder\ooad\WindowsFormsApplication13\WindowsFormsApplication13\bin\Debug\WindowsFormsApplication13.exe
+C:\Users\ok1\Desktop\New folder\ooad\WindowsFormsApplication13\WindowsFormsApplication13\bin\Debug\WindowsFormsApplication13.pdb
+C:\Users\ok1\Desktop\New folder\ooad\WindowsFormsApplication13\WindowsFormsApplication13\obj\Debug\WindowsFormsApplication13.EQtesttype.resources

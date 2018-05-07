@@ -27,3 +27,9 @@ C:\Users\Tehreem Shazadi\Desktop\ooad\myservice\myservice\bin\normnfkd.nlp
 C:\Users\Tehreem Shazadi\Desktop\ooad\myservice\myservice\obj\Debug\myservice.csprojResolveAssemblyReference.cache
 C:\Users\Tehreem Shazadi\Desktop\ooad\myservice\myservice\obj\Debug\myservice.dll
 C:\Users\Tehreem Shazadi\Desktop\ooad\myservice\myservice\obj\Debug\myservice.pdb
+C:\Users\ok1\Desktop\New folder\ooad\myservice\myservice\bin\myservice.dll.config
+C:\Users\ok1\Desktop\New folder\ooad\myservice\myservice\bin\myservice.dll
+C:\Users\ok1\Desktop\New folder\ooad\myservice\myservice\bin\myservice.pdb
+C:\Users\ok1\Desktop\New folder\ooad\myservice\myservice\obj\Debug\myservice.csprojResolveAssemblyReference.cache
+C:\Users\ok1\Desktop\New folder\ooad\myservice\myservice\obj\Debug\myservice.dll
+C:\Users\ok1\Desktop\New folder\ooad\myservice\myservice\obj\Debug\myservice.pdb

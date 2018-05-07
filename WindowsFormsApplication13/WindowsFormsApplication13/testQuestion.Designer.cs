@@ -55,6 +55,7 @@
             this.lblqtn.Size = new System.Drawing.Size(73, 13);
             this.lblqtn.TabIndex = 0;
             this.lblqtn.Text = "Question No#";
+            this.lblqtn.Click += new System.EventHandler(this.lblqtn_Click);
             // 
             // lblquestion
             // 

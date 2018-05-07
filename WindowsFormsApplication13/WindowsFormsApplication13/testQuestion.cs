@@ -160,5 +160,10 @@ namespace WindowsFormsApplication13
             this.Hide();
             cat.Show();
         }
+
+        private void lblqtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
